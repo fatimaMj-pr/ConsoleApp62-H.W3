@@ -39,7 +39,9 @@ namespace ConsoleApp62
 
                 Console.Write("Enter mark: ");
 
-                double mark =double.Parse(Console.ReadLine()); students.Add(new Student { id=id, name=name, mark =mark});
+                double mark =double.Parse(Console.ReadLine());
+                
+                students.Add(new Student { id=id, name=name, mark =mark});
             }
             Console.WriteLine("\nStudents who passed: ");
 
